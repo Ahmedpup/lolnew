@@ -5,7 +5,7 @@ const zalgo = require('zalgolize');
 const figlet = require('figlet'); 
 const prefix = '~'
 
-Rocket.on('message', message => {//id
+client.on('message', message => {//id
     if(message.content == ('p!user')) {
 
              if (message.channel.type === 'dm') return message.reply('هذا الامر فقط للسيرفرات :x:');
